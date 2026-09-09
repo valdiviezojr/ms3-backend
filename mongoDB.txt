@@ -1,0 +1,23 @@
+{
+  "_id": "ObjectId",
+  "id_cliente": "string",
+  "estado": "ACTIVO | ABANDONADO | COMPLETADO",
+  "items": [
+    {
+      "id_producto": "long",
+      "nombre": "string",
+      "precio_unitario": "decimal",
+      "url_imagen": "string",
+      "url_producto": "string",
+      "cantidad": "integer",
+      "fecha_agregado": "datetime"
+    }
+  ],
+  "resumen": {
+    "total_articulos": "integer",
+    "subtotal": "decimal",
+    "moneda": "PEN"
+  },
+  "fecha_creacion": "datetime",
+  "fecha_actualizacion": "datetime"
+}
